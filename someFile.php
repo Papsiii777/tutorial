@@ -14,7 +14,7 @@ class Fruit
   }
 }
 
-$durian = new Fruit("Durian", 23, 400);
+$durian = new Fruit("Durian", 23, 2343);
 $kiwi = new Fruit("Kiwi", 18, 390);
 
 echo $durian->name;
