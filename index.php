@@ -1,5 +1,6 @@
 <?php
-$global_variable = "global ito haha"
+$global_variable = "global ito haha";
+$wyns_variable = "haha wyn, lower cases -> upper cases ";
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +22,11 @@ $global_variable = "global ito haha"
 
 	<h1>AFter staged changes</h1>
 	<p>paragraph</p>
+
+	<h1>Wyn's code let's gooo!</h1>
+	<h3>
+		<?php echo strtoupper($wyns_variable) ?>
+	</h3>
 </body>
 
 </html>
