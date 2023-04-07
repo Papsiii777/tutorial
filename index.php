@@ -19,6 +19,7 @@ $global_variable = "global ito haha"
 
 	<?php echo $global_variable ?>
 
+	<h1>AFter staged changes</h1>
 	<p>paragraph</p>
 </body>
 
